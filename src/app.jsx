@@ -242,23 +242,23 @@ function Breakdown() {
 
   return <section id="breakdown" className="breakdown section-wrap" ref={ref} aria-labelledby="breakdown-title">
     <Reveal className="breakdown-copy">
-      <span className="eyebrow">A LOOK UNDER THE SURFACE / PROBLEM SOLVING</span>
-      <motion.h2 id="breakdown-title" className="display" style={enabled ? { x: titleX } : {}}>FROM PROBLEM.<br/><span className="accent">TO SOLUTION.</span></motion.h2>
-      <p>Tantangan teknis nyata dalam operasional. Lihat bagaimana investigasi sistematis, isolasi protokol, dan optimasi arsitektur cloud/jaringan mengubah kendala menjadi sistem yang stabil.</p>
-      <span className="breakdown-credit">LATENCY & SMB TROUBLESHOOTING / 2024<br/>ROOT CAUSE ANALYSIS · NETWORK PROTOCOL AUDIT · ARCHITECTURE RESOLUTION</span>
+      <span className="eyebrow">A LOOK UNDER THE SURFACE / DATA TRANSFORMATION</span>
+      <motion.h2 id="breakdown-title" className="display" style={enabled ? { x: titleX } : {}}>FROM RAW DATA.<br/><span className="accent">TO ACTIONABLE INSIGHT.</span></motion.h2>
+      <p>Tantangan operasional data penjualan nyata. Dari spreadsheet manual yang terfragmentasi, rawan selisih angka, dan memakan waktu berjam-jam untuk rekapitulasi — ditransformasikan menjadi Dashboard CRM &amp; Sales BI otomatis yang menyajikan visualisasi performa real-time bagi pengambilan keputusan strategis.</p>
+      <span className="breakdown-credit">SALES &amp; LEADS DATA PIPELINE / 2023–2024<br/>DATA VALIDATION · SQL BLENDING · LOOKER STUDIO BI · AUTOMATED KPI FUNNEL</span>
     </Reveal>
     <Reveal className="comparison">
       <div className="comparison-stage" style={{'--cut': `${enabled || manual ? cut : 50}%`}}>
-        <MediaImage src="./Asset/img/breakdown/problem-state.svg" alt="Diagram diagnosis masalah: Latensi multi-region dan kegagalan protokol SMB"/>
+        <MediaImage src="./Asset/img/breakdown/problem-state.svg" alt="Tampilan data mentah: Spreadsheet penjualan manual tidak terstruktur, rentan salah input dan selisih data"/>
         <div className="comparison-final">
-          <MediaImage src="./Asset/img/breakdown/solution-state.svg" alt="Diagram solusi: Co-location region Singapore dan perbaikan firewall SMB"/>
+          <MediaImage src="./Asset/img/DATA ANALYST/marketing funnel/marketing funnel.png" alt="Tampilan solusi: Dashboard CRM &amp; Sales Funnel BI terpusat dan otomatis"/>
         </div>
-        <span className="comparison-label raw-label">PROBLEM / DIAGNOSIS</span>
-        <span className="comparison-label final-label">SOLUTION / RESOLUTION</span>
+        <span className="comparison-label raw-label">RAW SPREADSHEET / MANUAL BOTTLENECK</span>
+        <span className="comparison-label final-label">DASHBOARD CRM / AUTOMATED BI</span>
         <div className="comparison-divider"><span><ChevronLeft size={14}/><ChevronRight size={14}/></span></div>
-        <input aria-label="Perbandingan masalah dan solusi teknis" aria-valuetext={`${cut}% diagnosis, ${100-cut}% solusi`} type="range" min="0" max="100" value={cut} onChange={e => { setManual(true); setCut(Number(e.target.value)); }}/>
+        <input aria-label="Perbandingan data manual dan dashboard CRM interaktif" aria-valuetext={`${cut}% spreadsheet mentah, ${100-cut}% dashboard CRM`} type="range" min="0" max="100" value={cut} onChange={e => { setManual(true); setCut(Number(e.target.value)); }}/>
       </div>
-      <div className="comparison-caption"><span>GESER UNTUK MELIHAT PERBANDINGAN INVESTIGASI</span><span>DRAG / SCROLL</span></div>
+      <div className="comparison-caption"><span>GESER UNTUK MELIHAT TRANSFORMASI DARI SPREADSHEET MANUAL KE DASHBOARD CRM</span><span>DRAG / SCROLL</span></div>
     </Reveal>
   </section>;
 }
