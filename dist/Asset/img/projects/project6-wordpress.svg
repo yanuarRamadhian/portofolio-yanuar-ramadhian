@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="960" height="600">
+  <rect width="960" height="600" fill="#0d0d0e"/>
+  <rect x="20" y="20" width="920" height="560" rx="8" fill="#141416" stroke="#2a1f22"/>
+  
+  <!-- Top bar -->
+  <rect x="20" y="20" width="920" height="50" rx="8" fill="#1b1718" stroke="#332427"/>
+  <circle cx="50" cy="45" r="6" fill="#ef4151"/>
+  <circle cx="70" cy="45" r="6" fill="#ffb830"/>
+  <circle cx="90" cy="45" r="6" fill="#20bf6b"/>
+  <text x="130" y="52" fill="#f2efeb" font-family="'Manrope', sans-serif" font-weight="700" font-size="14">WORDPRESS CUSTOM THEME DEVELOPMENT & PRODUCTION FLEET</text>
+  <rect x="795" y="32" width="125" height="26" rx="4" fill="#ef4151" fill-opacity="0.2"/>
+  <text x="810" y="49" fill="#ef4151" font-family="'Manrope', sans-serif" font-weight="800" font-size="10">PRODUCTION SITES</text>
+
+  <!-- Card 1: aomsport.com -->
+  <rect x="50" y="95" width="270" height="295" rx="6" fill="#181415" stroke="#382126"/>
+  <rect x="68" y="115" width="105" height="22" rx="3" fill="#ef4151" fill-opacity="0.2" stroke="#ef4151"/>
+  <text x="76" y="130" fill="#ef4151" font-family="'Manrope', sans-serif" font-weight="800" font-size="10">CUSTOM THEME</text>
+  <text x="68" y="165" fill="#f2efeb" font-family="'Manrope', sans-serif" font-weight="800" font-size="18">aomsport.com</text>
+  <text x="68" y="190" fill="#a09c9a" font-family="'Manrope', sans-serif" font-size="12">Sportswear & Brand Store</text>
+  <line x1="68" y1="210" x2="300" y2="210" stroke="#332427"/>
+  <text x="68" y="235" fill="#c2bdb9" font-family="'Manrope', sans-serif" font-size="11">● Custom Theme architecture</text>
+  <text x="68" y="260" fill="#c2bdb9" font-family="'Manrope', sans-serif" font-size="11">● Product catalog & showcase</text>
+  <text x="68" y="285" fill="#c2bdb9" font-family="'Manrope', sans-serif" font-size="11">● Responsive mobile navigation</text>
+  <text x="68" y="310" fill="#c2bdb9" font-family="'Manrope', sans-serif" font-size="11">● Performance optimization</text>
+  <rect x="68" y="340" width="234" height="34" rx="4" fill="#251619" stroke="#ef4151"/>
+  <text x="185" y="362" fill="#ef4151" font-family="'Manrope', sans-serif" font-weight="700" font-size="11" text-anchor="middle">Active Production Site ↗</text>
+
+  <!-- Card 2: lindennutrition.id -->
+  <rect x="345" y="95" width="270" height="295" rx="6" fill="#181415" stroke="#382126"/>
+  <rect x="363" y="115" width="105" height="22" rx="3" fill="#ef4151" fill-opacity="0.2" stroke="#ef4151"/>
+  <text x="371" y="130" fill="#ef4151" font-family="'Manrope', sans-serif" font-weight="800" font-size="10">CUSTOM THEME</text>
+  <text x="363" y="165" fill="#f2efeb" font-family="'Manrope', sans-serif" font-weight="800" font-size="18">lindennutrition.id</text>
+  <text x="363" y="190" fill="#a09c9a" font-family="'Manrope', sans-serif" font-size="12">Health & Nutrition Brand</text>
+  <line x1="363" y1="210" x2="595" y2="210" stroke="#332427"/>
+  <text x="363" y="235" fill="#c2bdb9" font-family="'Manrope', sans-serif" font-size="11">● Custom Brand Identity Theme</text>
+  <text x="363" y="260" fill="#c2bdb9" font-family="'Manrope', sans-serif" font-size="11">● Clean product specifications</text>
+  <text x="363" y="285" fill="#c2bdb9" font-family="'Manrope', sans-serif" font-size="11">● Fast Core Web Vitals rating</text>
+  <text x="363" y="310" fill="#c2bdb9" font-family="'Manrope', sans-serif" font-size="11">● Lead generation forms</text>
+  <rect x="363" y="340" width="234" height="34" rx="4" fill="#251619" stroke="#ef4151"/>
+  <text x="480" y="362" fill="#ef4151" font-family="'Manrope', sans-serif" font-weight="700" font-size="11" text-anchor="middle">Active Production Site ↗</text>
+
+  <!-- Card 3: scienceinsport.id -->
+  <rect x="640" y="95" width="270" height="295" rx="6" fill="#181415" stroke="#382126"/>
+  <rect x="658" y="115" width="105" height="22" rx="3" fill="#20bf6b" fill-opacity="0.2" stroke="#20bf6b"/>
+  <text x="668" y="130" fill="#20bf6b" font-family="'Manrope', sans-serif" font-weight="800" font-size="10">MANAGED SITE</text>
+  <text x="658" y="165" fill="#f2efeb" font-family="'Manrope', sans-serif" font-weight="800" font-size="18">scienceinsport.id</text>
+  <text x="658" y="190" fill="#a09c9a" font-family="'Manrope', sans-serif" font-size="12">Sports Nutrition & Energy</text>
+  <line x1="658" y1="210" x2="890" y2="210" stroke="#332427"/>
+  <text x="658" y="235" fill="#c2bdb9" font-family="'Manrope', sans-serif" font-size="11">● Website maintenance & updates</text>
+  <text x="658" y="260" fill="#c2bdb9" font-family="'Manrope', sans-serif" font-size="11">● Plugin security auditing</text>
+  <text x="658" y="285" fill="#c2bdb9" font-family="'Manrope', sans-serif" font-size="11">● Database backup & sync</text>
+  <text x="658" y="310" fill="#c2bdb9" font-family="'Manrope', sans-serif" font-size="11">● Server & domain DNS support</text>
+  <rect x="658" y="340" width="234" height="34" rx="4" fill="#16251b" stroke="#20bf6b"/>
+  <text x="775" y="362" fill="#20bf6b" font-family="'Manrope', sans-serif" font-weight="700" font-size="11" text-anchor="middle">Active Production Site ↗</text>
+
+  <!-- Bottom workflow bar -->
+  <rect x="50" y="415" width="860" height="135" rx="6" fill="#181415" stroke="#332427"/>
+  <text x="75" y="445" fill="#f2efeb" font-family="'Manrope', sans-serif" font-weight="800" font-size="14">Custom Theme Engineering & Safe Operations Workflow</text>
+  <text x="75" y="475" fill="#a09c9a" font-family="'Manrope', sans-serif" font-size="12">Pengembangan tema kustom berbasis PHP murni dengan struktur modular, kompatibel dengan PHP 8.1+, tanpa bloatware. Diuji di local staging XAMPP sebelum cutover live ke hosting produksi dengan proteksi backup berkala.</text>
+  <text x="75" y="515" fill="#ef4151" font-family="'Manrope', sans-serif" font-weight="700" font-size="12">LIVE PRODUCTION READY · ZERO DOWNTIME MAINTENANCE · CUSTOM CODED ARCHITECTURE</text>
+</svg>

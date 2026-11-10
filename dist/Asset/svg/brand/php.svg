@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" fill="none">
+    <rect x="20" y="16" width="36" height="28" rx="6" fill="#777bb4"/>
+    <text x="25" y="36" fill="#fff" font-family="'Manrope', sans-serif" font-weight="800" font-size="16">PHP</text>
+    <text x="68" y="38" fill="#f2efeb" font-family="'Manrope', sans-serif" font-weight="800" font-size="20">PHP 8.x</text>
+  </svg>

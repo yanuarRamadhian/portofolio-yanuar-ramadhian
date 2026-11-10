@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="960" height="600">
+    <rect width="960" height="600" fill="#0d0d0e"/>
+    <rect x="20" y="20" width="920" height="560" rx="8" fill="#141416" stroke="#2a1f22"/>
+    <!-- Top bar -->
+    <rect x="20" y="20" width="920" height="50" rx="8" fill="#1b1718" stroke="#332427"/>
+    <circle cx="50" cy="45" r="6" fill="#ef4151"/>
+    <circle cx="70" cy="45" r="6" fill="#ffb830"/>
+    <circle cx="90" cy="45" r="6" fill="#20bf6b"/>
+    <text x="130" y="52" fill="#f2efeb" font-family="'Manrope', sans-serif" font-weight="700" font-size="14">SALES FORECASTING EXPERIMENT — TIME-SERIES PROJECTIONS [PYTHON / PHP]</text>
+    <rect x="785" y="32" width="135" height="26" rx="4" fill="#3b82f6" fill-opacity="0.2"/>
+    <text x="800" y="49" fill="#60a5fa" font-family="'Manrope', sans-serif" font-weight="800" font-size="10">PERSONAL PROJECT</text>
+
+    <!-- Chart container -->
+    <rect x="50" y="90" width="860" height="350" rx="6" fill="#1b1718" stroke="#332427"/>
+    <text x="75" y="125" fill="#f2efeb" font-family="'Manrope', sans-serif" font-weight="700" font-size="14">Historical Sales Trend vs Forecasted Confidence Interval</text>
+
+    <!-- Axes -->
+    <line x1="100" y1="390" x2="860" y2="390" stroke="#332427" stroke-width="2"/>
+    <line x1="100" y1="150" x2="100" y2="390" stroke="#332427" stroke-width="2"/>
+
+    <!-- Confidence band -->
+    <polygon points="560,250 850,170 850,330 560,270" fill="#ef4151" fill-opacity="0.12"/>
+
+    <!-- Historical line -->
+    <polyline points="100,340 160,330 220,310 280,325 340,290 400,270 460,295 520,260 560,255" fill="none" stroke="#20bf6b" stroke-width="3"/>
+    <!-- Forecast dashed line -->
+    <polyline points="560,255 620,240 680,225 740,235 800,210 850,195" fill="none" stroke="#ef4151" stroke-width="3" stroke-dasharray="6 4"/>
+
+    <!-- Legend -->
+    <rect x="620" y="115" width="20" height="4" fill="#20bf6b"/>
+    <text x="650" y="122" fill="#a09c9a" font-family="'Manrope', sans-serif" font-size="11">Historical Actuals</text>
+
+    <line x1="750" y1="117" x2="770" y2="117" stroke="#ef4151" stroke-width="3" stroke-dasharray="4 2"/>
+    <text x="780" y="122" fill="#a09c9a" font-family="'Manrope', sans-serif" font-size="11">Model Projection</text>
+
+    <!-- Error metric note -->
+    <rect x="50" y="460" width="860" height="90" rx="6" fill="#1b1718" stroke="#332427"/>
+    <text x="75" y="490" fill="#f2efeb" font-family="'Manrope', sans-serif" font-weight="700" font-size="13">Model Evaluation & Uncertainty Disclaimer</text>
+    <text x="75" y="515" fill="#a09c9a" font-family="'Manrope', sans-serif" font-size="12">Evaluated with Mean Absolute Error (MAE) and RMSE. Projections serve as directional indicators for inventory buffer planning, not absolute financial guarantees.</text>
+  </svg>

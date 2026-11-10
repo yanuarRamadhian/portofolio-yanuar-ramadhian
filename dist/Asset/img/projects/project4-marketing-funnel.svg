@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="960" height="600">
+    <rect width="960" height="600" fill="#0d0d0e"/>
+    <rect x="20" y="20" width="920" height="560" rx="8" fill="#141416" stroke="#2a1f22"/>
+    <!-- Top bar -->
+    <rect x="20" y="20" width="920" height="50" rx="8" fill="#1b1718" stroke="#332427"/>
+    <circle cx="50" cy="45" r="6" fill="#ef4151"/>
+    <circle cx="70" cy="45" r="6" fill="#ffb830"/>
+    <circle cx="90" cy="45" r="6" fill="#20bf6b"/>
+    <text x="130" y="52" fill="#f2efeb" font-family="'Manrope', sans-serif" font-weight="700" font-size="14">MARKETING FUNNEL & PRODUCT PERFORMANCE DASHBOARD [LOOKER STUDIO]</text>
+    <rect x="800" y="32" width="120" height="26" rx="4" fill="#ef4151" fill-opacity="0.2"/>
+    <text x="815" y="49" fill="#ef4151" font-family="'Manrope', sans-serif" font-weight="800" font-size="10">WORK PROJECT</text>
+
+    <!-- Funnel Visualization -->
+    <polygon points="120,110 840,110 760,200 200,200" fill="#ef4151" fill-opacity="0.9"/>
+    <text x="480" y="155" fill="#fff" font-family="'Manrope', sans-serif" font-weight="800" font-size="18" text-anchor="middle">PRODUCT CLICKS: 142,850</text>
+    <text x="480" y="180" fill="#ffc2c7" font-family="'Manrope', sans-serif" font-size="12" text-anchor="middle">Baseline Traffic & Awareness</text>
+
+    <polygon points="200,210 760,210 680,300 280,300" fill="#d63040" fill-opacity="0.9"/>
+    <text x="480" y="255" fill="#fff" font-family="'Manrope', sans-serif" font-weight="800" font-size="18" text-anchor="middle">ADD TO CART (ATCR): 28,570 (20.0%)</text>
+    <text x="480" y="280" fill="#ffc2c7" font-family="'Manrope', sans-serif" font-size="12" text-anchor="middle">High Intent Engagement</text>
+
+    <polygon points="280,310 680,310 590,400 370,400" fill="#ad1a28" fill-opacity="0.9"/>
+    <text x="480" y="355" fill="#fff" font-family="'Manrope', sans-serif" font-weight="800" font-size="18" text-anchor="middle">CHECKOUT INITIATED: 11,420</text>
+    <text x="480" y="380" fill="#ffc2c7" font-family="'Manrope', sans-serif" font-size="12" text-anchor="middle">Form Submission / Invoicing</text>
+
+    <polygon points="370,410 590,410 540,490 420,490" fill="#750c17" fill-opacity="0.9"/>
+    <text x="480" y="450" fill="#fff" font-family="'Manrope', sans-serif" font-weight="800" font-size="18" text-anchor="middle">SOLD: 4,570 (CVR: 3.2%)</text>
+    <text x="480" y="475" fill="#ffc2c7" font-family="'Manrope', sans-serif" font-weight="700" font-size="12" text-anchor="middle">Completed Conversions</text>
+
+    <!-- Footer Stats -->
+    <rect x="50" y="515" width="860" height="45" rx="4" fill="#1b1718" stroke="#332427"/>
+    <text x="75" y="543" fill="#a09c9a" font-family="'Manrope', sans-serif" font-size="12">Key Insights: Drop-off primarily between ATCR and Checkout. Recommended streamlining mobile checkout UI.</text>
+  </svg>
