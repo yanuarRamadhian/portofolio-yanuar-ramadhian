@@ -1,0 +1,59 @@
+<svg width="1024" height="1536" viewBox="0 0 1024 1536" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="redGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ef4151" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#8c121e" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#140a0c" stop-opacity="0.95"/>
+    </linearGradient>
+    <radialGradient id="rimLight" cx="50%" cy="35%" r="50%">
+      <stop offset="0%" stop-color="#ef4151" stop-opacity="0.4"/>
+      <stop offset="60%" stop-color="#2a080d" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ef4151" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#ef4151" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Ambient Rim Light -->
+  <circle cx="512" cy="550" r="420" fill="url(#rimLight)"/>
+
+  <!-- Network Grid Background Lines -->
+  <g stroke="#3a161b" stroke-width="1.5" opacity="0.45">
+    <line x1="212" y1="200" x2="812" y2="200" />
+    <line x1="162" y1="350" x2="862" y2="350" />
+    <line x1="120" y1="500" x2="904" y2="500" />
+    <line x1="120" y1="650" x2="904" y2="650" />
+    <line x1="262" y1="120" x2="262" y2="800" />
+    <line x1="512" y1="80" x2="512" y2="900" />
+    <line x1="762" y1="120" x2="762" y2="800" />
+  </g>
+
+  <!-- Network Nodes -->
+  <g fill="#ef4151" opacity="0.6">
+    <circle cx="262" cy="350" r="5" />
+    <circle cx="512" cy="200" r="6" />
+    <circle cx="762" cy="350" r="5" />
+    <circle cx="262" cy="650" r="4" />
+    <circle cx="762" cy="650" r="4" />
+    <circle cx="512" cy="500" r="7" />
+  </g>
+
+  <!-- Stylized Silhouette Torso -->
+  <path d="M512 340 C430 340 370 410 370 510 C370 620 440 680 512 680 C584 680 654 620 654 510 C654 410 594 340 512 340 Z" fill="#151213" stroke="#521c23" stroke-width="3"/>
+  <path d="M512 660 C320 690 220 780 180 960 L140 1450 L884 1450 L844 960 C804 780 704 690 512 660 Z" fill="url(#redGlow)" stroke="#ef4151" stroke-width="2" opacity="0.85"/>
+
+  <!-- Chest Emblem / Identity Monogram -->
+  <g transform="translate(512, 510)" text-anchor="middle">
+    <text font-family="'Anton', sans-serif" font-size="120" fill="#f2efeb" letter-spacing="4" y="42">YRS</text>
+    <text font-family="'Manrope', sans-serif" font-size="20" font-weight="700" fill="#ef4151" letter-spacing="8" y="90">YANUAR RAMADHIAN S.</text>
+    <text font-family="'Manrope', sans-serif" font-size="15" font-weight="600" fill="#a09c9a" letter-spacing="4" y="125">IT SUPPORT · DATA ANALYST</text>
+  </g>
+
+  <!-- Subtle Rim Light Outline -->
+  <path d="M512 335 C425 335 365 405 365 510 C365 625 435 685 512 685 C589 685 659 625 659 510 C659 405 599 335 512 335" fill="none" stroke="#ef4151" stroke-width="4" stroke-dasharray="12 8" opacity="0.7"/>
+
+  <!-- Vertical Light Beam -->
+  <line x1="512" y1="0" x2="512" y2="330" stroke="url(#lineGrad)" stroke-width="2"/>
+</svg>

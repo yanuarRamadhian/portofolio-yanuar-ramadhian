@@ -1,0 +1,113 @@
+[
+  {
+    "title": "Sales Data Center",
+    "role": "Full-Stack Developer & Database Architect",
+    "category": "Web Development",
+    "categories": ["Web Development", "Data Analytics", "IT Operations"],
+    "year": "2024",
+    "type": "image",
+    "media": "./Asset/img/DATA ANALYST/sales datacenter/sales datacenter.png",
+    "image": "./Asset/img/DATA ANALYST/sales datacenter/sales datacenter.png",
+    "gallery": [
+      "./Asset/img/DATA ANALYST/sales datacenter/sales datacenter.png",
+      "./Asset/img/DATA ANALYST/sales datacenter/sales datacenter1.png",
+      "./Asset/img/DATA ANALYST/sales datacenter/sales datacenter2.png"
+    ],
+    "scope": "Work Project",
+    "description": "Pengembangan aplikasi web terpusat untuk mendukung pelaporan penjualan, target, KPI sales, data pelanggan (CRM), stok gudang, dan dashboard operasional bisnis.",
+    "tech": ["Laravel 10", "PHP", "MySQL", "Blade", "Bootstrap"]
+  },
+  {
+    "title": "Stock Opname & Consignment App",
+    "role": "Web Application Developer",
+    "category": "Web Development",
+    "categories": ["Web Development"],
+    "year": "2024",
+    "type": "image",
+    "media": "./Asset/img/STOCK OPNAME/stok opname1.png",
+    "image": "./Asset/img/STOCK OPNAME/stok opname1.png",
+    "gallery": [
+      "./Asset/img/STOCK OPNAME/stok opname1.png",
+      "./Asset/img/STOCK OPNAME/stok opname2.png",
+      "./Asset/img/projects/project2-consignment.svg"
+    ],
+    "scope": "Internal Project",
+    "description": "Aplikasi untuk mencatat barang masuk, barang keluar, retur, dan stok opname bulanan pada alur distribusi konsinyasi. Mengatasi bottleneck latensi multi-region backend dan database.",
+    "tech": ["Laravel 10", "React", "Supabase", "Vercel"]
+  },
+  {
+    "title": "Office Network Infrastructure",
+    "role": "Network Administrator & IT Support",
+    "category": "Networking",
+    "categories": ["Networking", "IT Operations"],
+    "year": "2023 – 2024",
+    "type": "image",
+    "media": "./Asset/img/NETWORKING/mikrotik1.png",
+    "image": "./Asset/img/NETWORKING/mikrotik1.png",
+    "gallery": [
+      "./Asset/img/NETWORKING/mikrotik1.png",
+      "./Asset/img/NETWORKING/mikrotik2.png",
+      "./Asset/img/projects/project3-network.svg"
+    ],
+    "scope": "Work Project",
+    "description": "Pengelolaan jaringan kantor multi-lantai dengan MikroTik RB4011, PCC load balancing 2 ISP, QoS prioritas bandwidth untuk NAS & CCTV, failover Netwatch, dan segmentasi LAN/WLAN.",
+    "tech": ["MikroTik RouterOS v7.16", "PCC Load Balancing", "QoS / PCQ", "Netwatch", "NAS Storage"]
+  },
+  {
+    "title": "Dashboard CRM",
+    "role": "Data Analyst & CRM Specialist",
+    "category": "Data Analytics",
+    "categories": ["Data Analytics"],
+    "year": "2023 – 2024",
+    "type": "image",
+    "media": "./Asset/img/DATA ANALYST/marketing funnel/marketing funnel.png",
+    "image": "./Asset/img/DATA ANALYST/marketing funnel/marketing funnel.png",
+    "gallery": [
+      "./Asset/img/DATA ANALYST/marketing funnel/marketing funnel.png"
+    ],
+    "scope": "Work Project",
+    "description": "Dashboard Business Intelligence di Looker Studio untuk memantau data pelanggan (CRM), konversi leads, analitik funnel produk, dan performa penjualan.",
+    "tech": ["Looker Studio", "Google Sheets", "Data Blending", "CRM Analytics"]
+  },
+  {
+    "title": "Sales Forecasting & Time-Series",
+    "role": "Data Analyst (R&D)",
+    "category": "Data Analytics",
+    "categories": ["Data Analytics"],
+    "year": "2024",
+    "type": "image",
+    "media": "./Asset/img/DATA ANALYST/sales forecasting/forecast1.png",
+    "image": "./Asset/img/DATA ANALYST/sales forecasting/forecast1.png",
+    "gallery": [
+      "./Asset/img/DATA ANALYST/sales forecasting/forecast1.png",
+      "./Asset/img/DATA ANALYST/sales forecasting/forecast2.png",
+      "./Asset/img/DATA ANALYST/sales forecasting/forecast3.png"
+    ],
+    "scope": "Personal Project",
+    "description": "Eksperimen analisis time series untuk membaca pola tren historis penjualan dan menghasilkan proyeksi penjualan berkala yang dievaluasi dengan metrik error MAE/RMSE.",
+    "tech": ["Python Ecosystem", "Time-Series Modeling", "PHP / Laravel", "Trend Analysis"]
+  },
+  {
+    "title": "WordPress Custom Themes & Website Management",
+    "role": "WordPress Theme Developer & Web Operations",
+    "category": "WordPress",
+    "categories": ["WordPress", "Web Development", "IT Operations"],
+    "year": "2023 – Sekarang",
+    "type": "website",
+    "media": "./Asset/img/WORDPRESS/aom.png",
+    "image": "./Asset/img/WORDPRESS/aom.png",
+    "gallery": [
+      "./Asset/img/WORDPRESS/aom.png",
+      "./Asset/img/WORDPRESS/linden.png",
+      "./Asset/img/projects/project6-wordpress.svg"
+    ],
+    "scope": "Work Project",
+    "description": "Pengembangan custom theme dari nol untuk aomsport.com dan lindennutrition.id, serta pemeliharaan teknis dan operasional untuk scienceinsport.id. Meliputi arsitektur tema kustom PHP, optimasi performa, audit plugin, migrasi database, dan pemeliharaan server/hosting.",
+    "tech": ["WordPress", "Custom PHP Theme", "HTML & CSS", "MySQL", "WooCommerce", "XAMPP", "DNS & Hosting"],
+    "links": [
+      { "name": "aomsport.com", "url": "https://aomsport.com", "badge": "Custom Theme" },
+      { "name": "lindennutrition.id", "url": "https://lindennutrition.id", "badge": "Custom Theme" },
+      { "name": "scienceinsport.id", "url": "https://scienceinsport.id", "badge": "Managed Site" }
+    ]
+  }
+]

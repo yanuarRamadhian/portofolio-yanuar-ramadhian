@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" width="1200" height="680">
+  <rect width="1200" height="680" fill="#0d120f"/>
+  <rect x="25" y="25" width="1150" height="630" rx="8" fill="#121815" stroke="#1d4d35"/>
+  <rect x="25" y="25" width="1150" height="65" rx="8" fill="#152b20" stroke="#256345"/>
+  <circle cx="65" cy="58" r="7" fill="#20bf6b"/>
+  <circle cx="90" cy="58" r="7" fill="#20bf6b" opacity="0.6"/>
+  <circle cx="115" cy="58" r="7" fill="#20bf6b" opacity="0.3"/>
+  <text x="155" y="66" fill="#f2efeb" font-family="'Manrope', sans-serif" font-weight="800" font-size="18" letter-spacing="1">SOLUTION: REGION CO-LOCATION & LAYERED PROTOCOL AUDIT</text>
+  <rect x="980" y="40" width="170" height="35" rx="4" fill="#20bf6b" fill-opacity="0.2" stroke="#20bf6b"/>
+  <text x="1005" y="63" fill="#20bf6b" font-family="'Manrope', sans-serif" font-weight="800" font-size="12">OPTIMIZED & VERIFIED</text>
+
+  <!-- Solution 1 diagram: Co-Located Cloud Region -->
+  <rect x="60" y="120" width="510" height="490" rx="6" fill="#151e19" stroke="#243f32"/>
+  <text x="90" y="165" fill="#20bf6b" font-family="'Anton', sans-serif" font-size="24">RESOLUTION 01: CO-LOCATED IN SINGAPORE</text>
+  <text x="90" y="195" fill="#a09c9a" font-family="'Manrope', sans-serif" font-size="13">Latency reduced from 850ms down to 42ms.</text>
+
+  <rect x="90" y="230" width="180" height="90" rx="4" fill="#1c2d25" stroke="#20bf6b"/>
+  <text x="110" y="265" fill="#f2efeb" font-family="'Manrope', sans-serif" font-weight="700" font-size="14">Edge Client</text>
+  <text x="110" y="295" fill="#20bf6b" font-family="'Manrope', sans-serif" font-size="12">Jakarta Users (ID)</text>
+
+  <path d="M 270 275 L 350 275" stroke="#20bf6b" stroke-width="4"/>
+  <text x="285" y="265" fill="#20bf6b" font-family="'Manrope', sans-serif" font-weight="800" font-size="12">18ms</text>
+
+  <rect x="350" y="230" width="180" height="90" rx="4" fill="#1c2d25" stroke="#20bf6b"/>
+  <text x="370" y="265" fill="#f2efeb" font-family="'Manrope', sans-serif" font-weight="700" font-size="14">Vercel Serverless</text>
+  <text x="370" y="295" fill="#20bf6b" font-family="'Manrope', sans-serif" font-size="12">Singapore (sin1)</text>
+
+  <path d="M 440 320 L 440 400" stroke="#20bf6b" stroke-width="4"/>
+  <text x="450" y="365" fill="#20bf6b" font-family="'Manrope', sans-serif" font-weight="800" font-size="12">2ms VPC</text>
+
+  <rect x="350" y="400" width="180" height="90" rx="4" fill="#1c2d25" stroke="#20bf6b"/>
+  <text x="370" y="435" fill="#f2efeb" font-family="'Manrope', sans-serif" font-weight="700" font-size="14">Supabase DB</text>
+  <text x="370" y="465" fill="#20bf6b" font-family="'Manrope', sans-serif" font-size="12">Singapore (ap-se-1)</text>
+
+  <rect x="90" y="520" width="440" height="65" rx="4" fill="#193325"/>
+  <text x="110" y="555" fill="#4ade80" font-family="'Manrope', sans-serif" font-weight="600" font-size="12">Result: 95% latency reduction. Instant data loading for outlet stock opname.</text>
+
+  <!-- Solution 2 diagram: SMB Resolution -->
+  <rect x="630" y="120" width="510" height="490" rx="6" fill="#151e19" stroke="#243f32"/>
+  <text x="660" y="165" fill="#20bf6b" font-family="'Anton', sans-serif" font-size="24">RESOLUTION 02: SMB & FIREWALL FIX</text>
+  <text x="660" y="195" fill="#a09c9a" font-family="'Manrope', sans-serif" font-size="13">Shared storage and printers authenticated & accessible.</text>
+
+  <rect x="660" y="230" width="440" height="250" rx="4" fill="#1c2d25" stroke="#20bf6b"/>
+  <text x="685" y="265" fill="#20bf6b" font-family="'Manrope', sans-serif" font-weight="700" font-size="14">Systematic Remediation Checklist Applied:</text>
+  <text x="685" y="300" fill="#f2efeb" font-family="'Manrope', sans-serif" font-size="12">✔ Set Active Network Profile to "Private" via PowerShell</text>
+  <text x="685" y="335" fill="#f2efeb" font-family="'Manrope', sans-serif" font-size="12">✔ Enabled Inbound Rule: File and Printer Sharing (SMB-In, Port 445)</text>
+  <text x="685" y="370" fill="#f2efeb" font-family="'Manrope', sans-serif" font-size="12">✔ Started "Function Discovery Resource Publication" service (Auto)</text>
+  <text x="685" y="405" fill="#f2efeb" font-family="'Manrope', sans-serif" font-size="12">✔ Configured NTFS permissions + Share security credentials</text>
+  <text x="685" y="440" fill="#20bf6b" font-family="'Manrope', sans-serif" font-weight="600" font-size="12">✔ Verified mapped network drive persistent reconnect on logon</text>
+
+  <rect x="660" y="520" width="440" height="65" rx="4" fill="#193325"/>
+  <text x="680" y="555" fill="#4ade80" font-family="'Manrope', sans-serif" font-weight="600" font-size="12">Result: Seamless shared drive access across all office workstation clients.</text>
+</svg>

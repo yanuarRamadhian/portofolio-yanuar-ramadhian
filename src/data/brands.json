@@ -1,0 +1,50 @@
+[
+  {
+    "file": "mikrotik.svg",
+    "name": "MikroTik RouterOS"
+  },
+  {
+    "file": "laravel.svg",
+    "name": "Laravel Framework"
+  },
+  {
+    "file": "mysql.svg",
+    "name": "MySQL Database"
+  },
+  {
+    "file": "looker.svg",
+    "name": "Google Looker Studio"
+  },
+  {
+    "file": "react.svg",
+    "name": "React JS"
+  },
+  {
+    "file": "php.svg",
+    "name": "PHP"
+  },
+  {
+    "file": "supabase.svg",
+    "name": "Supabase"
+  },
+  {
+    "file": "wordpress.svg",
+    "name": "WordPress"
+  },
+  {
+    "file": "excel.svg",
+    "name": "Microsoft Excel"
+  },
+  {
+    "file": "accurate.svg",
+    "name": "Accurate Accounting"
+  },
+  {
+    "file": "xampp.svg",
+    "name": "XAMPP Stack"
+  },
+  {
+    "file": "vercel.svg",
+    "name": "Vercel Deployment"
+  }
+]

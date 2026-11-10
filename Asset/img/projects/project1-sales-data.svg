@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="960" height="600">
+    <rect width="960" height="600" fill="#0d0d0e"/>
+    <rect x="20" y="20" width="920" height="560" rx="8" fill="#141416" stroke="#2a1f22"/>
+    <!-- Top bar -->
+    <rect x="20" y="20" width="920" height="50" rx="8" fill="#1b1718" stroke="#332427"/>
+    <circle cx="50" cy="45" r="6" fill="#ef4151"/>
+    <circle cx="70" cy="45" r="6" fill="#ffb830"/>
+    <circle cx="90" cy="45" r="6" fill="#20bf6b"/>
+    <text x="130" y="52" fill="#f2efeb" font-family="'Manrope', sans-serif" font-weight="700" font-size="14">SALES DATA CENTER — CENTRAL OPERATIONS & CRM [LARAVEL 10 / MYSQL]</text>
+    <rect x="800" y="32" width="120" height="26" rx="4" fill="#ef4151" fill-opacity="0.2"/>
+    <text x="815" y="49" fill="#ef4151" font-family="'Manrope', sans-serif" font-weight="800" font-size="10">WORK PROJECT</text>
+    <!-- KPI cards -->
+    <rect x="50" y="90" width="260" height="110" rx="6" fill="#1b1718" stroke="#332427"/>
+    <text x="70" y="120" fill="#a09c9a" font-family="'Manrope', sans-serif" font-size="12">TOTAL REVENUE (REGIONAL)</text>
+    <text x="70" y="160" fill="#f2efeb" font-family="'Anton', sans-serif" font-size="32">Rp 842.500.000</text>
+    <text x="70" y="185" fill="#20bf6b" font-family="'Manrope', sans-serif" font-weight="600" font-size="11">▲ Verified database audit</text>
+
+    <rect x="350" y="90" width="260" height="110" rx="6" fill="#1b1718" stroke="#332427"/>
+    <text x="370" y="120" fill="#a09c9a" font-family="'Manrope', sans-serif" font-size="12">ACTIVE SALES LEADS</text>
+    <text x="370" y="160" fill="#f2efeb" font-family="'Anton', sans-serif" font-size="32">1,482 LEADS</text>
+    <text x="370" y="185" fill="#ef4151" font-family="'Manrope', sans-serif" font-weight="600" font-size="11">Validated CRM Pipeline</text>
+
+    <rect x="650" y="90" width="260" height="110" rx="6" fill="#1b1718" stroke="#332427"/>
+    <text x="670" y="120" fill="#a09c9a" font-family="'Manrope', sans-serif" font-size="12">WAREHOUSE STOCK LEVEL</text>
+    <text x="670" y="160" fill="#f2efeb" font-family="'Anton', sans-serif" font-size="32">98.4% SYNC</text>
+    <text x="670" y="185" fill="#20bf6b" font-family="'Manrope', sans-serif" font-weight="600" font-size="11">Automated Stock Movement</text>
+
+    <!-- Chart simulation -->
+    <rect x="50" y="225" width="560" height="325" rx="6" fill="#1b1718" stroke="#332427"/>
+    <text x="75" y="260" fill="#f2efeb" font-family="'Manrope', sans-serif" font-weight="700" font-size="15">Monthly Sales vs Target Breakdown</text>
+    <line x1="75" y1="500" x2="575" y2="500" stroke="#332427" stroke-width="2"/>
+    <polyline points="90,470 160,430 230,445 300,380 370,390 440,310 510,290 560,260" fill="none" stroke="#ef4151" stroke-width="4"/>
+    <polygon points="90,470 160,430 230,445 300,380 370,390 440,310 510,290 560,260 560,500 90,500" fill="#ef4151" fill-opacity="0.1"/>
+
+    <!-- Table sidebar -->
+    <rect x="640" y="225" width="270" height="325" rx="6" fill="#1b1718" stroke="#332427"/>
+    <text x="660" y="260" fill="#f2efeb" font-family="'Manrope', sans-serif" font-weight="700" font-size="14">Regional Data Validation</text>
+    <line x1="660" y1="280" x2="890" y2="280" stroke="#332427"/>
+    <text x="660" y="315" fill="#a09c9a" font-family="'Manrope', sans-serif" font-size="12">Jakarta / West: Verified</text>
+    <text x="660" y="355" fill="#a09c9a" font-family="'Manrope', sans-serif" font-size="12">Central Java: Reconciled</text>
+    <text x="660" y="395" fill="#a09c9a" font-family="'Manrope', sans-serif" font-size="12">East Java: Verified</text>
+    <text x="660" y="435" fill="#a09c9a" font-family="'Manrope', sans-serif" font-size="12">Outlets Stock: Synced</text>
+    <rect x="660" y="475" width="230" height="45" rx="4" fill="#251619" stroke="#ef4151"/>
+    <text x="675" y="502" fill="#ef4151" font-family="'Manrope', sans-serif" font-weight="700" font-size="12">Exported to Management</text>
+  </svg>
