@@ -68,7 +68,10 @@ function MediaImage({ src, alt, className = '', priority = false, ...props }) {
   const imgRef = useRef(null);
   useEffect(() => {
     const img = imgRef.current;
-    setState(img?.complete ? (img.naturalWidth ? 'loaded' : 'error') : 'loading');
+    if (!img) return;
+    if (img.complete && (img.naturalWidth > 0 || img.naturalHeight > 0)) {
+      setState('loaded');
+    }
   }, [src]);
   return <span className={`media-image ${state} ${className}`}>
     {state === 'error' && <span className="image-fallback"><span className="display">Y.</span><span>Pratinjau tidak tersedia</span></span>}
